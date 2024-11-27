@@ -1,7 +1,7 @@
 # 大模型生图安全疫苗注入验证 Pipeline
 
 ## 验证流程
-![流程图](image\bddctifa0b9cacrn.jpg)
+![流程图](image/bddctifa0b9cacrn.jpg)
 1、给定文本prompt，前置文本安全检测模块（ShieldLM-7B-internlm2）会判断prompt是否有风险；
 
 2、文生图大模型会基于文本prompt进行图片生成（中文prompt送入Kolors，英文prompt则送入FLUX.1-schnell）；
